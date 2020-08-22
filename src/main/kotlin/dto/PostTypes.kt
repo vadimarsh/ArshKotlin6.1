@@ -1,5 +1,5 @@
-package dto
+package ru.netology.dto
 
 enum class PostTypes {
-        POSTBASIC, POSTEVENT, POSTVIDEO, POSTREPOST, POSTPROMO
-    }
+    POSTBASIC, POSTEVENT, POSTVIDEO, POSTREPOST, POSTPROMO
+}

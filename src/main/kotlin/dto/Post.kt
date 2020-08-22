@@ -1,18 +1,28 @@
 package dto
 
+import Location
+import ru.netology.dto.PostTypes
 import java.util.*
 
-interface Post {
-    val id: Long
-    val postType: PostTypes
-    val author: String
-    val avatarurl: String
-    val content: String
-    var created: Date
-    var likes: Int
-    var comments: Int
-    var shares: Int
-    var likedByMe: Boolean
-    var commentedByMe: Boolean
-    var sharedByMe: Boolean
+
+data class Post (
+    val id: Int,
+    val postType: PostTypes,
+    val author: String,
+    val avatarurl: String,
+    val content: String,
+    var created: Date,
+    var likes: Int = 0,
+    var comments: Int = 0,
+    var shares: Int = 0,
+    var likedByMe: Boolean = false,
+    var commentedByMe: Boolean = false,
+    var sharedByMe: Boolean = false,
+    val address: String? = null,
+    val coord: Location? = null,
+    val videoUrl: String?=null,
+    val repost: Post? = null,
+    val promoImgUrl: String? = null,
+    val promoUrl:String? = null
+    ) {
 }

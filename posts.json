@@ -1,7 +1,7 @@
 [
   {
-    "postType": "POSTBASIC",
     "id": 0,
+    "postType": "POSTBASIC",
     "author": "Вадим Аршинский",
     "avatarurl": "default",
     "content": "Первый пост!! Привет мир!",
@@ -14,47 +14,55 @@
     "sharedByMe": false
   },
   {
-    "postType": "POSTEVENT",
     "id": 1,
+    "postType": "POSTEVENT",
     "author": "Вадим Аршинский",
     "avatarurl": "default",
     "content": "На острове Ольхон, который является сакральным центром силы Байкала, расположен мыс Шаманка, который является обиталещем главного бурхана всей территории",
     "created": "Jul 17, 2020 12:00:00 AM",
-    "adress": "РФ, Иркутская область, п. Хужир",
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "likedByMe": false,
+    "commentedByMe": false,
+    "sharedByMe": false,
+    "address": "РФ, Иркутская область, п. Хужир",
     "coord": {
       "lat": "53.203965",
       "lon": "107.338867"
-    },
-    "likes": 0,
-    "comments": 0,
-    "shares": 3,
-    "likedByMe": false,
-    "commentedByMe": false,
-    "sharedByMe": false
+    }
   },
   {
-    "postType": "POSTVIDEO",
     "id": 2,
+    "postType": "POSTVIDEO",
     "author": "Вадим Аршинский",
     "avatarurl": "default",
     "content": "Мыс Бурхан зимой (кликните на картинку для просмотра)",
     "created": "Mar 1, 2020 12:00:00 AM",
-    "url": "https://youtu.be/73syI1uEWsM",
     "likes": 3,
     "comments": 1,
-    "shares": 3,
-    "likedByMe": false,
+    "shares": 1,
+    "likedByMe": true,
     "commentedByMe": false,
-    "sharedByMe": false
+    "sharedByMe": false,
+    "videoUrl": "https://youtu.be/73syI1uEWsM"
   },
   {
-    "postType": "POSTREPOST",
     "id": 3,
+    "postType": "POSTREPOST",
     "author": "Вадим Аршинский",
     "avatarurl": "default",
-    "reposted": {
-      "postType": "POSTBASIC",
+    "content": "Зацените друзья: какой зачётный пост!",
+    "created": "Jul 20, 2020 12:00:00 AM",
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "likedByMe": false,
+    "commentedByMe": false,
+    "sharedByMe": false,
+    "repost": {
       "id": 0,
+      "postType": "POSTBASIC",
       "author": "Вадим Аршинский",
       "avatarurl": "default",
       "content": "Первый пост!! Привет мир!",
@@ -65,53 +73,29 @@
       "likedByMe": false,
       "commentedByMe": false,
       "sharedByMe": false
-    },
-    "content": "Зацените друзья: какой зачётный пост!",
-    "created": "Jul 20, 2020 12:00:00 AM",
-    "likes": 0,
-    "comments": 0,
-    "shares": 0,
-    "likedByMe": false,
-    "commentedByMe": false,
-    "sharedByMe": false
+    }
   },
   {
-    "promoCaption": "Рекламная запись",
-    "postType": "POSTPROMO",
     "id": 4,
+    "postType": "POSTPROMO",
     "author": "Гугл",
     "avatarurl": "https://lh4.googleusercontent.com/-JGT2qEoG5X4/AAAAAAAAAAI/AAAAAAAAHko/fH9KqPJv1Ls/photo.jpg",
     "content": "Очень полезный сервис!",
     "created": "Jul 20, 2020 12:00:00 AM",
-    "urlImage": "https://www.google.com/intl/ru/landing/now/images/gnow-cardlist-manage.jpg",
-    "urlPromo": "https://www.google.ru/landing/now/",
     "likes": 0,
     "comments": 0,
     "shares": 0,
     "likedByMe": false,
     "commentedByMe": false,
-    "sharedByMe": false
+    "sharedByMe": false,
+    "promoImgUrl": "http://snow-baikal.tw1.ru/res/lUPAC_blocks_RGB.png",
+    "promoUrl": "https://www.google.ru/landing/now/"
   },
   {
-    "postType": "POSTREPOST",
     "id": 5,
+    "postType": "POSTREPOST",
     "author": "Вадим Аршинский",
     "avatarurl": "default",
-    "reposted": {
-      "postType": "POSTVIDEO",
-      "id": 2,
-      "author": "Вадим Аршинский",
-      "avatarurl": "default",
-      "content": "Мыс Бурхан зимой (кликните на картинку для просмотра)",
-      "created": "Mar 1, 2020 12:00:00 AM",
-      "url": "https://youtu.be/73syI1uEWsM",
-      "likes": 3,
-      "comments": 1,
-      "shares": 3,
-      "likedByMe": false,
-      "commentedByMe": false,
-      "sharedByMe": false
-    },
     "content": "И еще один зачётный пост!",
     "created": "Jul 20, 2020 12:00:00 AM",
     "likes": 0,
@@ -119,6 +103,21 @@
     "shares": 0,
     "likedByMe": false,
     "commentedByMe": false,
-    "sharedByMe": false
+    "sharedByMe": false,
+    "repost": {
+      "id": 2,
+      "postType": "POSTVIDEO",
+      "author": "Вадим Аршинский",
+      "avatarurl": "default",
+      "content": "Мыс Бурхан зимой (кликните на картинку для просмотра)",
+      "created": "Mar 1, 2020 12:00:00 AM",
+      "likes": 3,
+      "comments": 1,
+      "shares": 1,
+      "likedByMe": true,
+      "commentedByMe": false,
+      "sharedByMe": false,
+      "videoUrl": "https://youtu.be/73syI1uEWsM"
+    }
   }
 ]
